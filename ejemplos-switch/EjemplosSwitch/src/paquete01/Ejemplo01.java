@@ -31,7 +31,13 @@ public class Ejemplo01 {
             case "Martes":
             case "martes":
                 System.out.printf("%s", cadena);
-                break;    
+                break; 
+                
+            case "Viernes" :
+            case "viernes" :
+            case "VIERNES" :
+                System.out.printf("%s", cadena);
+                break;
             
             default:
                 System.out.println("ninguna de las anteriores");
